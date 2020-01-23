@@ -4,8 +4,10 @@
 
 #### Please edit demo.properties file inside textanalysis\src and update the below with your valid tokens and emailID.
 
-iengage.api.demo.default.user=xxxxxxxxxxxxxxxxx
-iengage.api.demo.default.accesstoken=xxxxxxxxxxxxxxxxxx
-iengage.api.demo.default.clienttoken=xxxxxxxxxxxxxxxxxx
+```mvn
+iengage.api.demo.default.user=xxxxxxxxxxxxxxxxx (Email ID)
+iengage.api.demo.default.accesstoken=xxxxxxxxxxxxxxxxxx (Access Token)
+iengage.api.demo.default.clienttoken=xxxxxxxxxxxxxxxxxx (Client Token)
+```
 
 You need to compile this application after making the above changes and deploy war file in Tomcat.
